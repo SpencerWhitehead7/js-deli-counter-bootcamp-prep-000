@@ -18,6 +18,7 @@ function currentLine(katzDeli){
   }
   else {
     var out = []
+    var i = 0
     for(i = 0; i<katzDeli.length; i++){
         out.push(`${i+1}. ${katzDeli[i]}`)
     }
