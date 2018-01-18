@@ -17,7 +17,6 @@ function currentLine(katzDeli){
     return "The line is currently empty."
   }
   else {
-    var output = `The line is currently:
-    return output
+    return `The line is currently: ${out}`
   }
 }
