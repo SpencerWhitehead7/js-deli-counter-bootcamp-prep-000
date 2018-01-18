@@ -1,5 +1,13 @@
-function takeANumber(katzDeliLine,name){
-  katzDeliLine.push(name);
-  return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`;
+var katzDeli = []
+
+function takeANumber(katzDeli,name){
+  katzDeli.push(name);
+  return `Welcome, ${name}. You are number ${katzDeli.length} in line.`;
 }
 
+function nowServing(){
+  if (katzDeli === []){
+    return "THere is nobody waiting to be served!"
+  }
+  else
+}
